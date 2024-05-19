@@ -4,6 +4,7 @@ import { splitTags } from "@/lib/utils";
 import { Github } from 'lucide-react';
 
 import Link from "next/link";
+import { DevBuddyVideo } from "./_components/video-player";
 
 export default async function RoomPage(props: {
   params: {
@@ -23,6 +24,7 @@ export default async function RoomPage(props: {
     <div className="col-span-3 p-4 pr-2">
       <div className="rounded-lg border bg-card text-card-foreground shadow-sm p-4 min-h-screen">
         {/* <DevFinderVideo room={room} /> */}
+        <DevBuddyVideo room={room} />
       </div>
     </div>
 

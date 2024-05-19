@@ -104,9 +104,9 @@ export function Header() {
           className="flex gap-2 items-center text-xl hover:underline"
         >
           <Image
-            src="/icon.png"
-            width="60"
-            height="60"
+            src="/logo.svg"
+            width="50"
+            height="50"
             alt="the application icon of a magnifying glass"
           />
           DevFinder
