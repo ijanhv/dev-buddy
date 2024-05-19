@@ -1,0 +1,62 @@
+{
+  "version": "6",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1716126403076,
+      "tag": "0000_dapper_strong_guy",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1716126484170,
+      "tag": "0001_unknown_darkhawk",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1716127188842,
+      "tag": "0002_big_puck",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1716127728416,
+      "tag": "0003_skinny_peter_quill",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1716127866096,
+      "tag": "0004_graceful_vance_astro",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1716127933580,
+      "tag": "0005_secret_secret_warriors",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1716128217818,
+      "tag": "0006_uneven_starfox",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1716129164015,
+      "tag": "0007_square_kree",
+      "breakpoints": true
+    }
+  ]
+}
