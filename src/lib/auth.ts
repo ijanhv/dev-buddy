@@ -29,7 +29,6 @@ export const authConfig = {
         where: (users, { eq }) => eq(users.email, token.email!),
       });
 
-      console.log(dbUser);
       if (!dbUser) {
         throw new Error("no user with email found");
       }

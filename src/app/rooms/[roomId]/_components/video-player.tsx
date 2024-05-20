@@ -42,6 +42,8 @@ export function DevBuddyVideo({ room }: { room: Room} ) {
       apiKey,
       user: {
         id: userId,
+        name: session.data.user.name ?? "Unknown User",
+        image: session.data.user.image ?? undefined
       },
       tokenProvider: () => generateTokenAction(),
     });
@@ -51,8 +53,10 @@ export function DevBuddyVideo({ room }: { room: Room} ) {
     setCall(call);
 
     return () => {
-      call.leave();
-      client.disconnectUser();
+      call.leave().
+      then(() => client.disconnectUser())
+      .catch(console.error);
+    
     };
   }, [session, room]);
 
